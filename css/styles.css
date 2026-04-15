@@ -20,6 +20,11 @@ button {
   cursor: pointer;
 }
 /* Nav Section */
+.container {
+  display: flex;
+
+  text-align: center;
+}
 .logo {
   font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
@@ -28,9 +33,19 @@ button {
   line-height: 1.16;
   letter-spacing: 3%;
   text-transform: uppercase;
+  margin-right: 76px;
+  margin-left: 156px;
 }
 .span-logo {
   color: #2e2f42;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
 }
 .nav-link {
   font-weight: 500;
@@ -41,6 +56,11 @@ button {
 .nav-link:hover {
   color: #4d5ae5;
 }
+.ul-address {
+  display: flex;
+  gap: 40px;
+  margin-left: 332px;
+}
 .address {
   color: #434455;
 }
@@ -50,6 +70,7 @@ button {
 /* Hero Section*/
 .hero {
   background-color: #2e2f42;
+  height: 600px;
 }
 .hero-title {
   color: #ffffff;
@@ -127,7 +148,20 @@ button {
 .portfolio-text {
   color: #434455;
 }
-
+/* Portfolio */
+.portfolio-nav {
+  font-weight: 500;
+  letter-spacing: 4%;
+  text-align: center;
+  color: #4d5ae5;
+}
+.portfolio-all {
+  font-weight: 500;
+  letter-spacing: 4%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #404bbf;
+}
 /* Our Team*/
 .footer {
   background-color: #2e2f42;
