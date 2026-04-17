@@ -217,3 +217,6 @@ button {
   flex-wrap: wrap;
   gap: 24px;
 }
+.li-item {
+  width: calc((100% - 24px) / 4);
+}
