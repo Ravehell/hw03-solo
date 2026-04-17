@@ -96,6 +96,8 @@ button {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  max-width: 496px;
+  margin: 0 auto;
   text-align: center;
   padding-left: 472px;
   padding-right: 472px;
