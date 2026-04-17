@@ -211,3 +211,9 @@ button {
 .span-logo-footer {
   color: #f4f4fd;
 }
+
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
