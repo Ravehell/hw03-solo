@@ -5,6 +5,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   background-color: #ffffff;
+  margin: 0;
 }
 
 a {
@@ -88,6 +89,7 @@ button {
 }
 .address {
   color: #434455;
+  font-style: normal;
 }
 .address:hover {
   color: #4d5ae5;
@@ -95,7 +97,6 @@ button {
 /* Hero Section*/
 .hero {
   background-color: #2e2f42;
-  height: 600px;
   margin-bottom: 120px;
 }
 .hero-title {
@@ -107,9 +108,10 @@ button {
   margin: 0 auto;
   text-align: center;
   margin-bottom: 48px;
-  padding-top: 188px;
+  /* padding-top: 188px; */
 }
 .hero-container {
+  padding: 188px 0;
 }
 
 .hero-button {
@@ -234,6 +236,7 @@ button {
   line-height: 1.2;
   color: #2e2f42;
   padding-bottom: 8px;
+  padding-top: 32px;
 }
 .portfolio-text {
   color: #434455;
@@ -268,11 +271,22 @@ button {
 .footer-section {
   background-color: #2e2f42;
   padding: 100px 0;
-  width: 1440px;
+  /* width: 1440px; */
 }
+
 .footer-paragraph {
   color: #f4f4fd;
   max-width: 264px;
+}
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  margin-right: 76px;
 }
 .span-logo-footer {
   color: #f4f4fd;
@@ -281,8 +295,12 @@ button {
 .card-set {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 .li-item {
   width: calc((100% - 24px * 2) / 3);
+}
+.portfolio-section {
+  padding-bottom: 120px;
 }
